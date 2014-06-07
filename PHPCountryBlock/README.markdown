@@ -1,0 +1,2 @@
+﻿#PHP Country Blocking Script#
+Using the free Maxmind Country GEOip databases and this simple solution to block users outside USA and Canada. Also if you are without CRON access, script will auto-update Maxmind file every 30 days (off by default). File is well commented to make your own modifications. This was a proof of concept. Please test before deploying.

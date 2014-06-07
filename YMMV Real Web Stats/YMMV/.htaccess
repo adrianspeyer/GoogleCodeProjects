@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://example.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://example.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.example.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.example.com$      [NC]
+RewriteRule .*\.(txt)$ http://www.example.com/YMMV/index.php [NC,R,L]
